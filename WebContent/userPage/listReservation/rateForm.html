@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>평점 form</title>
+</head>
+<body>
+	<form action="rateAction.jsp"	method="POST">
+		<table align=center>
+		<tr>
+			<td>평점을 매길 예매번호 : <input type="text" name="ReservationNumber"></td>
+		</tr>
+		<tr>
+			<td>평점 :
+				<select name="rate">
+      				<option value="1">1</option>
+      				<option value="2">2</option>
+      				<option value="3">3</option>
+      				<option value="4">4</option>
+      				<option value="5">5</option>
+    			</select>
+			</td>
+		</tr>
+		</table>
+		<div style="text-align:center">
+			<input type="submit" value="평점 등록">
+		</div>
+	</form>
+</body>
+</html>

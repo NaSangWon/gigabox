@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>회원 페이지</title>
+<style>
+.Start {
+	float: center;
+	width: 100%;
+	height: 100%;
+}
+
+.Top {
+	float: center;
+	width: 100%;
+	height: 100px;
+}
+
+.Cenetr {
+	float: center;
+	width: 100%;
+}
+</style>
+</head>
+	<frameset rows="100px, *" name=Start>
+		<frame id="topFrame" src="logo.html" name="Top">
+
+		<frameset cols="200px, *">
+			<frame id="menuFrame" src="menu.html" name="iframeMenu" border=1>
+			<frame id="centerFrame" src="" name="iframeResult">
+		</frameset>
+	</frameset>
+<body>
+</body>
+</html>

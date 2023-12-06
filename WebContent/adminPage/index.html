@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>관리자 페이지</title>
+<style>
+.Start {
+	float: center;
+	width: 100%;
+	height: 100%;
+}
+
+.Top {
+	float: center;
+	width: 100%;
+	height: 100px;
+}
+
+.Cenetr {
+	float: center;
+	width: 100%;
+}
+</style>
+</head>
+	<frameset rows="100px, *" name=Start>
+		<frame id="topFrame" src="logo.html" name="Top">
+
+		<frameset cols="200px, 400px, *">
+			<frame id="menuFrame" src="menu.html" name="iframeMenu" border=1>
+			<frame id="formFrame" src="" name="iframeForm">
+			<frame id="centerFrame" src="" name="iframeResult">
+		</frameset>
+	</frameset>
+	
+<!-- 	<frameset rows="100px, *" name=Start> -->
+<!-- 	<frame id="topFrame" src="topFrame/topFrameFormToLogin.jsp" name="Top"> -->
+
+<!-- 	<frameset cols="200px, *"> -->
+<!-- 		<frame id="menuFrame" src="menu/menuForSystemTask.html" name="Menu" border=1> -->
+<!-- 		<frame id="centerFrame" src="welcome/welcomeToSystem.jsp" name="Center"> -->
+<!-- 	</frameset> -->
+<!-- </frameset> -->
+<body>
+</body>
+</html>
