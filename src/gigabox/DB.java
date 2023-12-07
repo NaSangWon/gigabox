@@ -22,7 +22,7 @@ public class DB {
 	static String database;
 
 	static String driverMySQL = "com.mysql.jdbc.Driver";
-	static String URLLocalMySQL = "jdbc:mysql://localhost:3306/" ;
+	static String URLLocalMySQL = "jdbc:mysql://localhost:3306/";
 
 	static String URLRemoteMySQL = "jdbc:mysql://203.252.21.54:3306/";
 
