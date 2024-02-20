@@ -21,7 +21,7 @@ public class DB {
 	static String URL;
 	static String database;
 
-	static String driverMySQL = "com.mysql.jdbc.Driver";
+	static String driverMySQL = "com.mysql.cj.jdbc.Driver";
 	static String URLLocalMySQL = "jdbc:mysql://localhost:3306/";
 
 	static String URLRemoteMySQL = "jdbc:mysql://xxx.xxx.xxx.xxx:xxxx/"; // TODO: URL Έν½Γ...
