@@ -184,7 +184,7 @@ public class DB {
 			rs.beforeFirst();
 
 		} catch( SQLException ex ) 	    {
-			System.err.println("\n  ??? SQL exec error in ggetNoTuplesRS : " + ex.getMessage() );
+			System.err.println("\n  ??? SQL exec error in getNoTuplesRS : " + ex.getMessage() );
 		}
 		return cnt;
 	}
