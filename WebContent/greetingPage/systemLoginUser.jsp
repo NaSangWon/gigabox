@@ -28,7 +28,7 @@
        if (userLogin == null) {
       		out.print("<script>alert('아이디: " + ID + ", 패스워드: " + password + " - 잘못된 아이디 또는 패스워드입니다.')</script>");     
       		
-       		out.print("<script>window.top.location='index.html'</script>");
+       		out.print("<script>window.top.location='login.html'</script>");
 
        }
        else {
